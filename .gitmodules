@@ -1,0 +1,3 @@
+[submodule "AutoTweeterBot"]
+	path = AutoTweeterBot
+	url = ./AutoTweeterBot/
