@@ -25,7 +25,11 @@ const authenticate = (req, res, next) => {
   let authenticated = false;  //Find if user is logged in
 
   if( !authenticated ){
-    res.redirect(403, app.mountpath + 'auth');
+    console.log(app.mountpath)  //is '/'
+    console.log("redirecting");
+    res.redirect(403, '/auth');
+    outputer = () => {console.log("Back here")}
+    setTimeout(outputer, 4000);
     /*LEARNT - Redirect path ->
       1. Redirects can be relative to the root of the host name.
           For example, if the application is on http://example.com/admin/post/new, the following would redirect to the URL http://example.com/admin:
@@ -41,8 +45,7 @@ const authenticate = (req, res, next) => {
       */
 
     /* A path value of “back” has a special meaning, it refers to the URL specified in the Referer header of the request. If the Referer header was not specified, it refers to “/”.*/
-      console.log(app.mountpath + 'auth')
-    console.log("Back here")
+
     console.log("not authenticated")
   }
   next();
