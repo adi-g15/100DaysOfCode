@@ -1,3 +1,6 @@
 [submodule "AutoTweeterBot"]
 	path = AutoTweeterBot
 	url = https://github.com/AdityaGupta150/AutoTweeterBot/
+[submodule "Tutorials/authenticationIntro"]
+	path = Tutorials/authenticationIntro
+	url = https://github.com/Createdd/authenticationIntro.git

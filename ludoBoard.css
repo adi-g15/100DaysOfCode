@@ -1,7 +1,25 @@
 .box{
-    background: fixed;
+    position: relative;
     box-sizing: border-box;
     width: 45px;
     height: 45px;
+    text-align: center;
+    vertical-align: middle;
     background-color: blueviolet;
+    border-color: red;
+}
+
+.sbox{
+    box-sizing: content-box;
+    height: 45px;
+    width: 45px;
+    background-color: aqua;
+    border-bottom:10ch;
+    border-color: red;
+}
+
+.row{
+    flex: content;
+    flex-direction: row;
+    box-shadow: red;
 }

@@ -12,15 +12,35 @@
 
             function combination() {
                 window.location.reload()
-                console.log("reloaded it")
+                console.log( '[', Date.now(), "] reloaded it")
             }
-            setInterval( combination, 10000 )
+            setInterval( combination, 5000 )
         }
     </script>
 </head>
 <body onload="refreshPage()">
-    <div>
-    <span class="box">h</div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div> <span class="box"></div>
+    <div class="sbox">h</div>
+    <div class="row">
+        <div class="sbox">h</div>
+        <div class="sbox">h</div>
+    <!-- <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span>
+        <span class="box"></span> -->
     </div>
+
+    <!-- <div>
+    <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> <span class="box"></span> 
+    </div> -->
 </body>
 </html>
