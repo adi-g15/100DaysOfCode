@@ -1,0 +1,20 @@
+WebHook ->
+A method of augmenting or altering the behavior of a web page or web application with 'custom callbacks'. These callbacks may be maintained, modified, and managed by third-party users and developers. The format is usually JSON. The request is done as an HTTP POST request.
+
+To start working with WebHooks and the account activity API, we need to create a twitter app, with an approved developer account.
+Access tokens and access tokens are required, to `register your webhook URL`, which is where twitter will send account events.
+
+require() fn in node ->
+It reads a JS file, executes it, and then proceeds to return the exports object.
+
+Each Twitter app will be able to generate its own API key and API secret key that you will use to make requests on behalf of the app, as well as an access tokens and access token secret that you will use to make requests 'on behalf of the owning user'.
+
+Bahut jyada kuchh samagh nhi aaya -> https://developer.twitter.com/en/docs/accounts-and-users/subscribe-account-activity/guides/getting-started-with-webhooks
+
+https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update
+
+https://developer.twitter.com/en/docs/direct-messages/welcome-messages
+
+https://medium.com/@zibon/getting-started-with-nodejs-and-expressjs-2018-51689dae024b
+
+https://www.pdftron.com/documentation/samples/cpp/TextExtractTest
