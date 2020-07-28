@@ -45,7 +45,6 @@ userSchema.pre('save', (next) => {
     bcrypt.hash( this.password, 10, cb) //The callback is called after the hash function has finished exceution, and has found the hash for given string
 })
 
-
 module.exports = mongoose.model('Users', userSchema);   //returning the compiled model (compiled from the schema)
 
 //LEARNT -> collections are instances of the model class
