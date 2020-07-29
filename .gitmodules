@@ -7,3 +7,6 @@
 [submodule "personalAPIs"]
 	path = personalAPIs
 	url = git@github.com:AdityaGupta150/PersonalUse_APIs.git
+[submodule "probDash"]
+	path = probDash
+	url = git@github.com:AdityaGupta150/probDash.git
