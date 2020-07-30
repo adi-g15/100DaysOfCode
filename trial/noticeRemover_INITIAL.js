@@ -4,8 +4,8 @@ const { exit } = require('process');
 
 //LEARNT - var and a global variable are not the same thing simply
 const INIT_PATH = 'src/'
-// const fileList = fs.readdirSync(INIT_PATH)
-const fileList = []; removeNotice('src/assets/css/light-bootstrap-dashboard-react.min.css')
+const fileList = fs.readdirSync(INIT_PATH)
+// const fileList = []; removeNotice('src/assets/css/light-bootstrap-dashboard-react.min.css')
 
 for (let i = 0; i < fileList.length; i++) {
 	fileList[i] = INIT_PATH + fileList[i]
@@ -54,7 +54,7 @@ function removeNotice(filename) {
 
 		line = line.concat('\n');
 
-		if (counter < 14)
+		if (counter < 17)
 			notice = notice.concat(line);
 		else
 			content += line;
@@ -67,12 +67,11 @@ function removeNotice(filename) {
 		// console.log("For file -> ", filename);
 		// console.log(notice)
 
-		return notice.includes('===============')
 
 		if (!notice.includes('===============')) {
 			return console.log(filename, ' Notice not found in this file, aborting');
 		// }else if(notice.length != 646){	//17
-		// }else if(notice.length != 675){	//16
+		// }else if(notice.length != 676){	//16
 		}else if(notice.length != 670){	//14
 			return console.log(filename, ' Chhota hai... Notice (', notice.length, ')');
 		}
