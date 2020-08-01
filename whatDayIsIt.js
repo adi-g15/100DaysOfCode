@@ -1,6 +1,6 @@
-const theStart17 = 1594924200000
+const theStart = Date.parse('Fri Jul 17 2020 00:00:01 GMT+0530 (India Standard Time)')
 
-let now = ( Date.now() - theStart17 )/(1000*3600*24)
+let now = ( Date.now() - theStart )/(1000*3600*24)
 
 console.log("Completed", now, 'days')
 console.log("Today is Day", Math.trunc(now) + 1)
