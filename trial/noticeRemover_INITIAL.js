@@ -7,6 +7,16 @@ const INIT_PATH = 'src/'
 const fileList = fs.readdirSync(INIT_PATH)
 // const fileList = []; removeNotice('src/assets/css/light-bootstrap-dashboard-react.min.css')
 
+const notices = {
+	//lines in notice(from top of file):
+	// 	characters in that notice 
+	14: 670,
+	16: 676,
+	17: 646,
+	19: 655
+}
+let noOflines = 19
+
 for (let i = 0; i < fileList.length; i++) {
 	fileList[i] = INIT_PATH + fileList[i]
 	
@@ -54,7 +64,7 @@ function removeNotice(filename) {
 
 		line = line.concat('\n');
 
-		if (counter < 17)
+		if (counter < noOflines)
 			notice = notice.concat(line);
 		else
 			content += line;
@@ -72,7 +82,7 @@ function removeNotice(filename) {
 			return console.log(filename, ' Notice not found in this file, aborting');
 		// }else if(notice.length != 646){	//17
 		// }else if(notice.length != 676){	//16
-		}else if(notice.length != 670){	//14
+		}else if(notice.length != notices[noOflines]){	//14
 			return console.log(filename, ' Chhota hai... Notice (', notice.length, ')');
 		}
 		++noticeCounter

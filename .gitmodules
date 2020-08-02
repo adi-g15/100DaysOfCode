@@ -10,3 +10,6 @@
 [submodule "prob-dash"]
 	path = prob-dash
 	url = git@github.com:AdityaGupta150/probDash.git
+[submodule "reactBoilerplate"]
+	path = reactBoilerplate
+	url = git@github.com:AdityaGupta150/reactBoilerplate.git
