@@ -16,3 +16,6 @@
 [submodule ".\\bot"]
 	path = .\\bot
 	url = git@github.com:AdityaGupta150/AutoTweeterBot.git
+[submodule "materialReact"]
+	path = materialReact
+	url = http://www.nothing.git/
