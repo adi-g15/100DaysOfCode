@@ -1,6 +1,0 @@
-SQL	->	Mongo
-
-db	--	db
-tables	--	collections
-rows	--	docs (BSON)
-columns	--	fields
