@@ -1,0 +1,13 @@
+.editor{
+    height: 100%;
+    width: 100%;
+
+    background-image: linear-gradient(to right, blue, orange, blue);
+
+    padding: 2px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+
+    border-radius: 4px;
+    border-style: dashed;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: linear-gradient(to right, #c1c1c1, #ffffff);
+        }
+        .header{
+            display: flex;
+            position: fixed;
+            height: 10%;
+            left: 4%;
+            top: 4%;
+            right: 4%;
+            justify-content: center;
+            align-items: center;    /*vertically centers, in flexBox*/
+            border-bottom-left-radius: 25%;
+            border-top-right-radius: 25%;
+            background-color: #bb4237;
+            color: white;
+            font-size: 2.4rem;
+            /* align-content: center; */
+            /* vertical-align: middle; */
+            /* align-items: center; */
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .span1{
+            display: flex;
+            height: 100vh;
+            width: 20%;
+            align-items: center;    /*vertically aligns*/
+            text-align: center;
+            background-color: red;
+        }
+        .span2{
+            display: flex;
+            height: 100vh;
+            width: 80%;
+            align-items: center;
+            background-color: brown;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="header">
+        Hi there
+    </nav>
+    <div>
+        <span class="span1">Aditya</span>
+        <span class="span2">Gupta</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.header{
+    display: flex;
+    position: fixed;
+    height: 10%;
+    left: 4%;
+    top: 4%;
+    right: 4%;
+    justify-content: center;
+    align-items: center;    /*vertically centers, in flexBox*/
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+    background-color: #bb4237;
+    color: white;
+    font-size: 2.4rem;
+    /* align-content: center; */
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mat-header{
+    /* position: fixed; */
+    height: 10%;
+    left: 2%;
+    top: 4%;
+    right: 10%;  /*No effect of right side only.  QUESTION -> WHY??*/
+    justify-content: center;
+    align-items: center;    /*vertically centers, in flexBox*/
+    border-bottom-left-radius: 25%;
+    /* border-top-right-radius: 25%; */
+    /* background-color: #bb4237; */
+    color: white;
+    font-size: 2.4rem;
+    /* align-content: center; */
+    /* vertical-align: middle; */
+    /* align-items: center; */
+}
+
+.content{
+    text-align: center;
+    top: 15%;
+}
+
+.editor-component{
+    display: flex;
+    justify-content: center;
+
+    height: 60vh;
+    /* width: 50vw; */
+    width: 600px;
+}
