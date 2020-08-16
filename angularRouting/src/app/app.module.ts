@@ -16,7 +16,7 @@ import { MarkdownEditorComponent } from './markdown-editor/markdown-editor.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule, //here we have imported the app-routing module
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
