@@ -1,21 +1,18 @@
 [submodule "AutoTweeterBot"]
 	path = AutoTweeterBot
 	url = https://github.com/AdityaGupta150/AutoTweeterBot/
-[submodule "Tutorials/authenticationIntro"]
-	path = Tutorials/authenticationIntro
-	url = https://github.com/Createdd/authenticationIntro.git
-[submodule "personalAPIs"]
-	path = personalAPIs
-	url = git@github.com:AdityaGupta150/PersonalUse_APIs.git
+[submodule "usefulAPIs"]
+	path = usefulAPIs
+	url = git@github.com:AdityaGupta150/Useful_APIs.git
 [submodule "prob-dash"]
 	path = prob-dash
 	url = git@github.com:AdityaGupta150/probDash.git
 [submodule "reactBoilerplate"]
 	path = reactBoilerplate
 	url = git@github.com:AdityaGupta150/reactBoilerplate.git
-[submodule ".\\bot"]
-	path = .\\bot
-	url = git@github.com:AdityaGupta150/AutoTweeterBot.git
 [submodule "materialReact"]
 	path = materialReact
 	url = http://www.nothing.git/
+[submodule "AdityaGupta150"]
+	path = AdityaGupta150
+	url = git@github:AdityaGupta150/AdityaGupta150
