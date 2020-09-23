@@ -16,3 +16,9 @@
 [submodule "AdityaGupta150"]
 	path = AdityaGupta150
 	url = git@github:AdityaGupta150/AdityaGupta150
+[submodule "Ludo-The_Game\\"]
+	path = Ludo-The_Game\\
+	url = git@github.com:AdityaGupta150/Ludo-The_Game.git
+[submodule "worldLineSim\\"]
+	path = worldLineSim\\
+	url = git@github.com:AdityaGupta150/worldLineSim.git
