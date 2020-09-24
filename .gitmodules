@@ -22,3 +22,6 @@
 [submodule "worldLineSim\\"]
 	path = worldLineSim\\
 	url = git@github.com:AdityaGupta150/worldLineSim.git
+[submodule "HacktoberFest2020"]
+	path = HacktoberFest2020
+	url = git@github.com:AdityaGupta150/HacktoberFest2020.git
