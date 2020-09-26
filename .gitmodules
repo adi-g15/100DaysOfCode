@@ -25,3 +25,6 @@
 [submodule "HacktoberFest2020"]
 	path = HacktoberFest2020
 	url = git@github.com:AdityaGupta150/HacktoberFest2020.git
+[submodule "CSL3403\\"]
+	path = CSL3403\\
+	url = git@github.com:AdityaGupta150/CSL3403
