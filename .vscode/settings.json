@@ -5,6 +5,10 @@
         "titleBar.activeForeground": "#FCFBF3"
     },
     "files.associations": {
-        "utility": "cpp"
+        "utility": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp"
     }
 }
