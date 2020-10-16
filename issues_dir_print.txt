@@ -1,0 +1,1 @@
+"1. Ignore comments in .gitignore; 2. Not ignoring folders" 
